@@ -8,7 +8,7 @@ export default class BmiCalculator extends LightningElement {
   inputHandler(event){
     const {name, value} = event.target
     if(name === "height"){
-      this
+      this.height = value
     }
     if(name === "weight"){
       this.weight = value
